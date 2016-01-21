@@ -33,7 +33,7 @@ I am still wrapping my head around the utility of: touch, cat, less, cp, |, <, >
 -rm - remove files
 -help - use OS manual
 
-# 1.3 Forking and Cloning Reflection
+# 1.4 Forking and Cloning Reflection
 
 Instructions for create/fork/clone a repo (git and GitHub)
 
