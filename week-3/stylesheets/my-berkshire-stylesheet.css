@@ -1,0 +1,78 @@
+html {
+  background-color: #fff;
+  color: #000080;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #f00;
+}
+
+h1 {
+  text-decoration: bold;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.capital {
+  font-size: 24px;
+}
+
+.linebreak {
+  display: block;
+}
+
+img {
+  display: block;
+  width:382px;
+  height:200px;
+  margin: auto;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  font-size: 14px;
+  padding: 8px;
+  width: 50%;
+}
+
+td .linebreak {
+  font-size: 8px;
+}
+
+#geicoad {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#geicoad img {
+  height:15px;
+  width:75px;
+}
+
+#geicotext {
+  font-size: 10px;
+  text-align: center;
+  font-weight: normal;
+}
+
+#email {
+  font-size: 10px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+#copyright {
+  font-size: 8px;
+}
+
+p span {
+  font-weight: bold;
+}
