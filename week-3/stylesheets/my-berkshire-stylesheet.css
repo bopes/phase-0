@@ -76,3 +76,27 @@ td .linebreak {
 p span {
   font-weight: bold;
 }
+
+/*
+
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+  Be sure to know the correct filepath and the required relationship between the files.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+  Margin-auto, display: block, tables, text-align. Yes, the positioning is definitely the toughest part of CSS.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+  Color, text style, height/width, padding, borders
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+  Yes, we added both classes and ID's.  We used classes for spans we reused refrequently and ID's for individual sections that weren't going to repeat.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+  We liked ours, because it incorporated CSS and didn't embed styling directly in the HTML.  Theirs was also heavily dependent on <p> tags and had lots of repeated commands, so it wasn't DRY. I think we could clean our up even further with additional time, but it is fine for the purposes of the challenge.
+
+*/
