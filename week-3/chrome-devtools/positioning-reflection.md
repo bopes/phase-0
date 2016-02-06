@@ -2,7 +2,7 @@
 
 ### Images
 
-![SS1](/imgs/ss1.png)![SS2](/imgs/ss2.png)![SS3](/imgs/ss3.png)![SS4](/imgs/ss4.png)![SS5](/imgs/ss5.png)![SS6](/imgs/ss6.png)![SS7](/imgs/ss7.png)![SS8](/imgs/ss8.png)![SS9](/imgs/ss9.png)
+![SS1](imgs/ss1.png)![SS2](imgs/ss2.png)![SS3](imgs/ss3.png)![SS4](imgs/ss4.png)![SS5](imgs/ss5.png)![SS6](imgs/ss6.png)![SS7](imgs/ss7.png)![SS8](imgs/ss8.png)![SS9](imgs/ss9.png)
 
 ### How can you use Chrome's DevTools inspector to help you format or position elements?
 
