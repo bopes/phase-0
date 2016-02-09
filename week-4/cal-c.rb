@@ -1,4 +1,8 @@
-puts 1+2
-puts 2*3
-puts 5-8
-puts 9/2
+var1 = 8
+var2 = var1
+puts var1
+puts var2
+puts ''
+var1 = 'eight'
+puts var1
+puts var2
