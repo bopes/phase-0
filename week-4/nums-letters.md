@@ -1,6 +1,6 @@
 ## 4.2 Reflection
 
-### Release 1
+### Release 1 - Summarize
 
 ##### What does puts do?
 
@@ -19,15 +19,15 @@ Float division returns the exact value of the program, which can be a float itse
 
 ##### Hours in a year
 
-'''ruby
+```ruby
 puts 24*365
-'''
+```
 
 ##### Minutes in a decade
 
-'''ruby
+```ruby
 puts 60*24*365*10
-'''
+```
 
 
 ### Release 5 - Ruby Files
