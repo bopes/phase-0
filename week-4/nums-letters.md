@@ -47,26 +47,26 @@ https://github.com/bopes/phase-0/blob/master/week-4/basic-math.rb
 
 ### Release 7 - Reflection Questions
 
-#### How does Ruby handle addition, subtraction, multiplication, and division of numbers?
+##### How does Ruby handle addition, subtraction, multiplication, and division of numbers?
 
 It uses the +, -, *, and / symbols to perform calculations between numbers.
 
-#### What is the difference between integers and floats?
+##### What is the difference between integers and floats?
 
 Integers are whole numbers (positive or negative), whereas floats include a decimal place.
 
-#### What is the difference between integer and float division?
+##### What is the difference between integer and float division?
 
 Float division returns the exact amount. Integer division rounds the result down to the first whole number.
 
-#### What are strings? Why and when would you use them?
+##### What are strings? Why and when would you use them?
 
 Strings are sets of letters or numbers that are stored as text. You would use them for a value that doesn't rquire calculation.
 
-#### What are local variables? Why and when would you use them?
+##### What are local variables? Why and when would you use them?
 
 Local variables are variables assigned to your computer that you can reference multiple times.
 
-#### How was this challenge? Did you get a good review of some of the basics?
+##### How was this challenge? Did you get a good review of some of the basics?
 
 This was a pretty good review of the basic objects. I liked reviewing how to define variables.
