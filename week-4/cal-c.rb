@@ -1,5 +1,5 @@
-name = "Charlie"
 
-puts "My name is " + name
+def old_roman_numeral num
+  numeral = ''
+end
 
-puts "My name is #{name}"
