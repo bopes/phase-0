@@ -88,22 +88,27 @@ For me, researching simple solutions really helps prevent me from writing a very
 
 # Person 4
 def my_array_deletion_method!(source, thing_to_delete)
-  source.delete_if{|x| x.to_s.include?(thing_to_delete.to_s)}
+  source.delete_if {|x| x.to_s.include?(thing_to_delete.to_s)}
 end
 
 def my_hash_deletion_method!(source, thing_to_delete)
-  source.delete_if{|key,value| key.include?(thing_to_delete)}
+  source.delete_if {|key,value| key.include?(thing_to_delete)}
 end
 
-# Identify and describe the Ruby method(s) you implemented:
-# .delete_if {|x| ...critieria... }
-#     This method exists for both arrays and hashes. It iterates through the designated array/hash, and if the criteria evaluates as TRUE for an element, that element is then deleted from the array/hash.
-#
-# .include?( ...critieria... )
-#     This method exists for strings and evaluates as TRUE if the string contains the criteria
+=begin
+Identify and describe the Ruby method(s) you implemented:
+.delete_if {|x| ...critieria... }
+    This method exists for both arrays and hashes. It iterates through the designated array/hash, and if the criteria evaluates as TRUE for an element, that element is then deleted from the array/hash.
 
-# Ruby Docs tricks - I looked for a method containing 'delete' and found both the .delete and  .delete_if methods. I also remember the .include? method for strings, so I used Ruby Docs to verify that it exists the way I remembered.
+.include?( ...critieria... )
+    This method exists for strings and evaluates as TRUE if the string contains the criteria
+    In my_hash_deletion_method!, an alternative would be to use " == " instead of .include?, if the method needed to match to the key exactly. However, the instructions weren't clear in this case so I used .include? to mirror my_array_deletion_method!.
 
+.to_s
+    I used this on all elements in the source array in my_array_deletion_method! so that the .include? method would be available for all elements. Sometimes the elements were numbers, so it would result in an error if it tried to run .include? on an integer.
+
+Ruby Docs tricks - I looked for a method containing 'delete' and found both the .delete and  .delete_if methods. I also remember the .include? method for strings, so I used Ruby Docs to verify that it exists the way I remembered.
+=end
 
 # Person 5
 def my_array_splitting_method(source)
