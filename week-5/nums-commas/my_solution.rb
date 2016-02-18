@@ -105,7 +105,7 @@ end
 
 # What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
 
-# I actually made 3 different refactored solutions, because I wasn't sure which one would be the quickest to run. I used .chop to cut the final comma off the string, and experimented with string characters to manipulate certain characters in the string.
+# I actually made 3 different refactored solutions, because I wasn't sure which one would be the quickest to run. I used .chop to cut the final comma off the string, and experimented with individual string characters to manipulate certain characters in the string.
 
 # How did you initially iterate through the data structure?
 
