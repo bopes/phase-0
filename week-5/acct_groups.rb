@@ -94,6 +94,8 @@ def assign_groups(names, max_group_size)
     j += 1
   end
 
+  groups.map {}
+
   groups.each do |group, members|
     p "Group #{group}: #{members}"
   end

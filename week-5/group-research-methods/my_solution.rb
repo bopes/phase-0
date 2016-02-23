@@ -12,8 +12,8 @@ my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, 
 # Then use select method to return an array. Use it to search for what you are looking for.
 # Search each elelment in the array using the include? method which will determine whether the letter is a substring of each elelment.
 def my_array_finding_method(source, thing_to_find)
-  array_of_strings = source.map {|element| element.to_s}
-  array_of_strings.select {|element| element.include?(thing_to_find)}
+  # array_of_strings = source.map {|element| element.to_s}
+  source.select {|element| element.to_s.include?(thing_to_find)}
 end
 
 # Release 2: Identify and describe the Ruby method you implemented. Teach your
