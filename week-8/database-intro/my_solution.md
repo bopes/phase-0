@@ -1,4 +1,4 @@
-### SQL Queries
+## SQL Queries
 
 ##### 1. Select all data for all states.
 
@@ -57,12 +57,12 @@
 `JOIN states ON regions.id = states.region_id;`
 
 
-### My Own Schema
+## My Own Schema
 
 ![Clueless Database Schema](Clueless_database_schema.png "Clueless Database Schema")
 
 
-### Reflection
+## Reflection
 
 ##### What are databases for?
 
