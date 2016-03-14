@@ -20,7 +20,7 @@ def is_fibonacci?(num)
     next_num = fibonacci[-1]+fibonacci[-2]
     fibonacci << next_num
   end
-  fibonacci.include?(num)
+  num == next_num
 end
 
 
